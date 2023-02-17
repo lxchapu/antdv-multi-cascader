@@ -1,0 +1,61 @@
+{
+  "name": "antdv-multi-cascader",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "lxchapu",
+  "description": "A multiple cascader component for ant-design-vue 2.x",
+  "private": false,
+  "keywords": [
+    "antdv-multi-cascader",
+    "multi-cascader",
+    "antd-design-vue",
+    "antdv"
+  ],
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxchapu/antdv-multi-cascader.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.2.8",
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@rollup/plugin-alias": "^3.1.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@typescript-eslint/eslint-plugin": "~4.29.3",
+    "@typescript-eslint/parser": "~4.29.3",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vitejs/plugin-vue-jsx": "^1.1.7",
+    "@vue/babel-plugin-jsx": "^1.0.6",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-standard": "~6.1.0",
+    "@vue/eslint-config-typescript": "~7.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-vue": "~7.16.0",
+    "node-sass": "^6.0.1",
+    "prettier": "^2.3.2",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-styles": "^3.14.1",
+    "rollup-plugin-stylus": "^1.0.4",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.1",
+    "vue-tsc": "^0.2.2"
+  }
+}

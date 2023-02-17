@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "declaration": true,
+    "declarationDir": "lib",
+    "baseUrl": "./",
+    "paths": {
+      "/#/*": ["types/*"]
+    }
+  },
+  "exclude": ["examples/**"],
+  "include": ["packages/**/*.ts", "packages/**/*.tsx", "packages/**/*.d.ts", "types/**/*.d.ts"]
+}
